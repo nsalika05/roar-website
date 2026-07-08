@@ -166,6 +166,26 @@ p{
     background:var(--surface);
 }
 
+/* Disabled Buttons */
+
+.button-disabled{
+
+    opacity:.7;
+
+    cursor:default;
+
+    pointer-events:none;
+
+}
+
+.button-disabled:hover{
+
+    transform:none;
+
+    background:inherit;
+
+}
+
 /* Cards */
 .card{
     background:white;
