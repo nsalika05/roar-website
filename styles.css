@@ -1123,3 +1123,44 @@ Support Page
     grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 
 }
+
+/*---------------------------------------------
+Safety Disclaimer
+-----------------------------------------------*/
+
+.safety-disclaimer,
+.homepage-disclaimer {
+    padding: 3rem 0;
+}
+
+.disclaimer-card {
+    background: #fff8e6;
+    border: 1px solid #f2d27d;
+    border-left: 6px solid #f5b301;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06)
+}
+
+.disclaimer-card h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.disclaimer-card p {
+    margin-bottom: 1rem;
+    color: #555;
+    line-height: 1.7;
+}
+
+.disclaimer-card p:last-child {
+    margin-bottom: 0;
+}
+
+.disclaimer-card strong {
+    color: #222;
+}
